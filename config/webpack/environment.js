@@ -13,4 +13,7 @@ const customConfig = {
 
 environment.config.merge(customConfig);
 
+// enable split chunk with default settings with following line
+environment.splitChunks()
+
 module.exports = environment
